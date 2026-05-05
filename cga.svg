@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" xml:space="preserve" role="img" aria-label="Samuel Lastrina — CGA themed homepage. BIOS boots, then a DOS terminal welcomes you.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 584" xml:space="preserve" role="img" aria-label="Samuel Lastrina, Principal Software Engineer (previously DevSecOps Manager). Polyglot across Python, TypeScript, C#, Java, Rust. Full-stack on frontend and backend, with Postgres on the data side. Focused on AI and cloud infrastructure (AWS, GCP). Time served in telco and banking. Bachelor of Computer Science (Software Engineering) and Bachelor of Engineering (Robotics and Mechatronics). CGA-themed terminal homepage that boots from BIOS into a DOS welcome screen.">
   <style>
     .mono { font-family: 'IBM Plex Mono', Menlo, Consolas, 'Courier New', ui-monospace, monospace; font-weight: 700; letter-spacing: 0.5px; }
     .cyan { fill: #55FFFF; }
@@ -9,7 +9,7 @@
     @keyframes blink { to { opacity: 0; } }
   </style>
 
-  <rect width="720" height="400" fill="#000000"/>
+  <rect width="720" height="584" fill="#000000"/>
 
   <!-- ============ BIOS POST ============ -->
   <g id="boot" class="mono" font-size="14" opacity="1">
@@ -56,27 +56,36 @@
   <g id="welcome" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.00s" dur="0.40s" fill="freeze"/>
 
-    <rect x="8" y="8" width="704" height="384" fill="none" stroke="#55FFFF" stroke-width="2"/>
+    <rect x="8" y="8" width="704" height="568" fill="none" stroke="#55FFFF" stroke-width="2"/>
     <rect x="10" y="10" width="700" height="26" fill="#FF55FF"/>
     <text class="mono black" x="20" y="29" font-size="16">SAMUEL.SYS</text>
     <text class="mono black" x="700" y="29" font-size="16" text-anchor="end">C:\GITHUB\SLASTRINA</text>
 
     <g class="mono" font-size="16">
-      <text class="cyan" x="24" y="74">C:\&gt; <tspan class="white">VER</tspan></text>
-      <text class="white" x="24" y="96">CGA MODE 4   PALETTE 1   320x200   4 COLORS</text>
+      <text class="cyan" x="24" y="74">C:\&gt; <tspan class="white">WHOAMI</tspan></text>
+      <text class="white" x="24" y="96">SAM, PRINCIPAL SOFTWARE ENGINEER</text>
+      <text class="white" x="24" y="118">A POLYGLOT, GEEKY/NERDY LOVER OF TECHNOLOGY.</text>
 
-      <text class="cyan" x="24" y="138">C:\&gt; <tspan class="white">WHOAMI</tspan></text>
-      <text class="white" x="24" y="160">SAM — A GEEKY/NERDY LOVER OF TECHNOLOGY.</text>
-      <text class="white" x="24" y="182">EVERYTHING FROM SOFTWARE TO 3D MODELS LIVES HERE.</text>
-      <text class="white" x="24" y="204">STAR WHAT YOU LIKE; COLLABORATION ALWAYS WELCOME.</text>
+      <text class="cyan" x="24" y="160">C:\&gt; <tspan class="white">TYPE CAREER.LOG</tspan></text>
+      <text class="white" x="24" y="182">&gt; PRINCIPAL SOFTWARE ENGINEER     <tspan class="cyan">[CURRENT]</tspan></text>
+      <text class="white" x="24" y="204">&gt; DEVSECOPS MANAGER               <tspan class="magenta">[PREVIOUS]</tspan></text>
+      <text class="white" x="24" y="226">&gt; SECTORS : TELCO, BANKING</text>
 
-      <text class="cyan" x="24" y="246">C:\&gt; <tspan class="white">DIR /W</tspan></text>
-      <text class="magenta" x="24" y="268">&lt;SOFTWARE&gt;     &lt;3DMODELS&gt;     &lt;PROJECTS&gt;</text>
+      <text class="cyan" x="24" y="268">C:\&gt; <tspan class="white">TYPE STACK.INI</tspan></text>
+      <text class="white" x="24" y="290">&gt; LANGUAGES : PYTHON, TYPESCRIPT, C#, JAVA, RUST</text>
+      <text class="white" x="24" y="312">&gt; STACK     : FULLSTACK (FRONTEND + BACKEND)</text>
+      <text class="white" x="24" y="334">&gt; DATA      : POSTGRES, ETC.</text>
+      <text class="white" x="24" y="356">&gt; CLOUD     : AWS, GCP</text>
+      <text class="white" x="24" y="378">&gt; FOCUS     : AI, CLOUD INFRASTRUCTURE</text>
 
-      <text class="cyan" x="24" y="310">C:\&gt; <tspan class="white">LOAD HOMEPAGE.EXE</tspan></text>
-      <text class="white" x="24" y="332">LOADING ........................... <tspan class="cyan">[ OK ]</tspan></text>
+      <text class="cyan" x="24" y="420">C:\&gt; <tspan class="white">TYPE EDU.DAT</tspan></text>
+      <text class="white" x="24" y="442">&gt; B.SC  : COMPUTER SCIENCE (SOFTWARE ENGINEERING)</text>
+      <text class="white" x="24" y="464">&gt; B.ENG : ROBOTICS AND MECHATRONICS</text>
 
-      <text class="cyan" x="24" y="374">C:\&gt; <tspan class="white cur">█</tspan></text>
+      <text class="cyan" x="24" y="506">C:\&gt; <tspan class="white">DIR /W</tspan></text>
+      <text class="magenta" x="24" y="528">&lt;SOFTWARE&gt;     &lt;3DMODELS&gt;     &lt;PROJECTS&gt;</text>
+
+      <text class="cyan" x="24" y="568">C:\&gt; <tspan class="white cur">█</tspan></text>
     </g>
   </g>
 </svg>
