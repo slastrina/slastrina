@@ -13,7 +13,7 @@
 
   <!-- ============ BIOS POST ============ -->
   <g id="boot" class="mono" font-size="14" opacity="1">
-    <text class="white" x="20" y="32">American Megatrends BIOS  Build 4.7.1</text>
+    <text class="white" x="20" y="32">Australian Megatrends BIOS  Build 4.7.1</text>
     <text class="white" x="20" y="50">(C) 1989-2026 Samuel Industries Inc.</text>
 
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.05s" fill="freeze"/>
