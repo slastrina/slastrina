@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Samuel Lastrina — CGA themed homepage">
+  <style>
+    .mono { font-family: 'IBM Plex Mono', Menlo, Consolas, 'Courier New', ui-monospace, monospace; font-weight: 700; letter-spacing: 0.5px; }
+    .cyan { fill: #55FFFF; }
+    .magenta { fill: #FF55FF; }
+    .white { fill: #FFFFFF; }
+    .black { fill: #000000; }
+    .cur { animation: blink 1.05s steps(2, start) infinite; }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+
+  <rect width="720" height="400" fill="#000000"/>
+
+  <rect x="8" y="8" width="704" height="384" fill="none" stroke="#55FFFF" stroke-width="2"/>
+
+  <rect x="10" y="10" width="700" height="26" fill="#FF55FF"/>
+  <text class="mono black" x="20" y="29" font-size="16">SAMUEL.SYS</text>
+  <text class="mono black" x="700" y="29" font-size="16" text-anchor="end">C:\GITHUB\SLASTRINA</text>
+
+  <g class="mono" font-size="16">
+    <text class="cyan" x="24" y="74">C:\&gt; <tspan class="white">VER</tspan></text>
+    <text class="white" x="24" y="96">CGA MODE 4   PALETTE 1   320x200   4 COLORS</text>
+
+    <text class="cyan" x="24" y="138">C:\&gt; <tspan class="white">WHOAMI</tspan></text>
+    <text class="white" x="24" y="160">SAM — A GEEKY/NERDY LOVER OF TECHNOLOGY.</text>
+    <text class="white" x="24" y="182">EVERYTHING FROM SOFTWARE TO 3D MODELS LIVES HERE.</text>
+    <text class="white" x="24" y="204">STAR WHAT YOU LIKE; COLLABORATION ALWAYS WELCOME.</text>
+
+    <text class="cyan" x="24" y="246">C:\&gt; <tspan class="white">DIR /W</tspan></text>
+    <text class="magenta" x="24" y="268">&lt;SOFTWARE&gt;     &lt;3DMODELS&gt;     &lt;PROJECTS&gt;</text>
+
+    <text class="cyan" x="24" y="310">C:\&gt; <tspan class="white">LOAD HOMEPAGE.EXE</tspan></text>
+    <text class="white" x="24" y="332">LOADING ........................... <tspan class="cyan">[ OK ]</tspan></text>
+
+    <text class="cyan" x="24" y="374">C:\&gt; <tspan class="white cur">█</tspan></text>
+  </g>
+</svg>
