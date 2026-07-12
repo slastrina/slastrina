@@ -10,6 +10,7 @@
 > Time served in telco and banking.
 > B.Sc Computer Science (Software Engineering), B.Eng Robotics and Mechatronics.
 > Software, 3D models, and other digital experiments live here.
+> Apps and games ship under the IOKIG label at www.iokig.com.
 > Star what you like; collaboration and contributions always welcome.
 ```
 
@@ -19,3 +20,5 @@
 ![cloud](https://img.shields.io/badge/CLOUD-AWS_%2B_GCP-55FFFF?style=for-the-badge&labelColor=000000)
 ![focus](https://img.shields.io/badge/FOCUS-AI-FF55FF?style=for-the-badge&labelColor=000000)
 ![lang](https://img.shields.io/badge/LANG-PY_TS_CS_JAVA_RUST-FFFFFF?style=for-the-badge&labelColor=000000)
+
+[![iokig](https://img.shields.io/badge/APPS_%26_GAMES-IOKIG.COM-55FFFF?style=for-the-badge&labelColor=000000)](https://www.iokig.com)
